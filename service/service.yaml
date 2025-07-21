@@ -1,20 +1,24 @@
 - docker: "explorer"
   github: "explorer"
   deploy:
-    webhook:
-      - POST:https://api.vercel.com/v1/integrations/deploy/prj_abc/123
+    release: "v0.8.2"
 
 - docker: "kayron"
   github: "kayron"
+  deploy:
+    release: "v0.2.0"
 
 - docker: "server"
   github: "server"
+  deploy:
+    release: "v0.87.15"
 
 - docker: "specta"
   github: "specta"
+  deploy:
+    release: "v0.4.1"
 
 - docker: "teams"
   github: "teams"
   deploy:
-    webhook:
-      - POST:https://api.vercel.com/v1/integrations/deploy/prj_abc/123
+    release: "v0.26.3"
