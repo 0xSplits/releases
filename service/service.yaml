@@ -6,7 +6,7 @@
 - docker: "kayron"
   github: "kayron"
   deploy:
-    release: "v0.2.0"
+    branch: "delete-dead-code"
 
 - docker: "server"
   github: "server"
