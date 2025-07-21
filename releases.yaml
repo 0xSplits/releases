@@ -1,0 +1,20 @@
+- docker: "explorer"
+  github: "explorer"
+  deploy:
+    webhook:
+      - POST:https://api.vercel.com/v1/integrations/deploy/prj_abc/123
+
+- docker: "kayron"
+  github: "kayron"
+
+- docker: "server"
+  github: "server"
+
+- docker: "specta"
+  github: "specta"
+
+- docker: "teams"
+  github: "teams"
+  deploy:
+    webhook:
+      - POST:https://api.vercel.com/v1/integrations/deploy/prj_abc/123
