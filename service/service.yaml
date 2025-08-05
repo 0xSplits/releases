@@ -1,24 +1,4 @@
-- docker: "explorer"
-  github: "explorer"
-  deploy:
-    release: "v0.8.2"
-
-- docker: "kayron"
-  github: "kayron"
-  deploy:
-    release: "v0.2.0"
-
-- docker: "server"
-  github: "server"
-  deploy:
-    release: "v0.87.15"
-
 - docker: "specta"
   github: "specta"
   deploy:
-    release: "v0.4.1"
-
-- docker: "teams"
-  github: "teams"
-  deploy:
-    release: "v0.26.3"
+    release: "v0.1.16"
