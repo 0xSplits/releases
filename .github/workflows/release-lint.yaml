@@ -1,0 +1,24 @@
+name: "release-lint"
+
+on: "push"
+
+jobs:
+  cloudformation-deploy:
+    runs-on: "ubuntu-latest"
+    steps:
+      - name: "Setup Git Project"
+        uses: "actions/checkout@v5"
+
+      - name: "Authorize Container Registry"
+        uses: "docker/login-action@v3.5.0"
+        with:
+          registry: "${{ secrets.AWS_ACCOUNT_NUMBER }}.dkr.ecr.${{ secrets.AWS_REGION }}.amazonaws.com"
+          username: "${{ secrets.AWS_ACCESS_KEY_ID }}"
+          password: "${{ secrets.AWS_SECRET_ACCESS_KEY }}"
+
+      - name: "Check Release Linters"
+        run: |
+          docker run --quiet --rm \
+            -v "./infrastructure/:/releases/infrastructure/:ro" \
+            -v "./service/:/releases/service/:ro" \
+            "${{ secrets.AWS_ACCOUNT_NUMBER }}.dkr.ecr.${{ secrets.AWS_REGION }}.amazonaws.com/kayron@sha256:08d5592454a96b1380692909462641e9f49f7bf13713184e8ec8acee37ae604a" "lint" --path "/releases/"
