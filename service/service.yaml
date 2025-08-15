@@ -1,2 +1,4 @@
 - docker: "specta"
   github: "specta"
+  deploy:
+    release: "v0.1.16"
