@@ -3,7 +3,7 @@ name: "release-lint"
 on: "push"
 
 jobs:
-  cloudformation-deploy:
+  release-lint:
     runs-on: "ubuntu-latest"
     steps:
       - name: "Setup Git Project"
