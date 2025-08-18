@@ -19,6 +19,6 @@ jobs:
       - name: "Check Release Linters"
         run: |
           docker run --quiet --rm \
-            -v "./infrastructure/:/releases/infrastructure/:ro" \
-            -v "./service/:/releases/service/:ro" \
-            "${{ secrets.AWS_ACCOUNT_NUMBER }}.dkr.ecr.${{ secrets.AWS_REGION }}.amazonaws.com/kayron@sha256:08d5592454a96b1380692909462641e9f49f7bf13713184e8ec8acee37ae604a" "lint" --path "/releases/"
+            -v "./infrastructure/:/image/infrastructure/:ro" \
+            -v "./service/:/image/service/:ro" \
+            "${{ secrets.AWS_ACCOUNT_NUMBER }}.dkr.ecr.${{ secrets.AWS_REGION }}.amazonaws.com/kayron@sha256:4f130c46a8f247cb8311ab0d88e14bb6348bdfef8b04773c4bf6afd0befc0f2b" "lint"
