@@ -31,7 +31,14 @@ Our proprietary release schema is define by our deployment operator Kayron in
 If you want to modify the way releases are defined, then you have to make sure
 Kayron can find and interpret the desired schema changes.
 
-```
+```yaml
+# service/service.yaml
+
+- docker: "kayron"
+  github: "kayron"
+  deploy:
+    release: "v0.1.7"
+
 - docker: "specta"
   github: "specta"
   deploy:
