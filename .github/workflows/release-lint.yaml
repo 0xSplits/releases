@@ -21,4 +21,4 @@ jobs:
           docker run --quiet --rm \
             -v "./infrastructure/:/image/infrastructure/:ro" \
             -v "./service/:/image/service/:ro" \
-            "${{ secrets.AWS_ACCOUNT_NUMBER }}.dkr.ecr.${{ secrets.AWS_REGION }}.amazonaws.com/kayron@sha256:f17ffc6bddaa9765c2ff38b0a47d7cd4604548a5e48896d7038ba2be2c1268a4" "lint"
+            "${{ secrets.AWS_ACCOUNT_NUMBER }}.dkr.ecr.${{ secrets.AWS_REGION }}.amazonaws.com/kayron@sha256:4f130c46a8f247cb8311ab0d88e14bb6348bdfef8b04773c4bf6afd0befc0f2b" "lint"
