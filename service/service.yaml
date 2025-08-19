@@ -1,9 +1,9 @@
 - docker: "kayron"
   github: "kayron"
   deploy:
-    branch: "main"
+    release: "v0.1.8"
 
 - docker: "specta"
   github: "specta"
   deploy:
-    branch: "main"
+    release: "v0.1.17"
