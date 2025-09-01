@@ -1,5 +1,5 @@
 - github: "infrastructure"
   provider: "cloudformation"
   deploy:
-    branch: "lite"
+    # branch: "lite"
     suspend: true
