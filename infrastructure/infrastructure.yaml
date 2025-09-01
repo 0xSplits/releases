@@ -2,3 +2,4 @@
   provider: "cloudformation"
   deploy:
     branch: "lite"
+    suspend: true

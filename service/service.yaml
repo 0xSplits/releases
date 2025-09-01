@@ -2,6 +2,7 @@
   github: "splits-lite"
   deploy:
     release: "v0.1.0"
+    suspend: true
 
 - docker: "kayron"
   github: "kayron"
