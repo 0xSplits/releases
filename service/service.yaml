@@ -1,15 +1,15 @@
-- docker: "splits-lite"
-  github: "splits-lite"
-  deploy:
-    # release: "v0.1.0"
-    suspend: true
+# - docker: "splits-lite"
+#   github: "splits-lite"
+#   deploy:
+#     release: "v0.1.0"
+#     suspend: true
 
 - docker: "kayron"
   github: "kayron"
   deploy:
-    release: "v0.2.0"
+    release: "v0.2.1"
 
 - docker: "specta"
   github: "specta"
   deploy:
-    release: "v0.2.0"
+    release: "v0.2.1"
