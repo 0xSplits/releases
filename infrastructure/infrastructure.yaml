@@ -1,5 +1,4 @@
 - github: "infrastructure"
   provider: "cloudformation"
   deploy:
-    branch: "certs"
-    # release: "v0.1.6"
+    release: "v0.1.7"
