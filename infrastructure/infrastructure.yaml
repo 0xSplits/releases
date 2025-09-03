@@ -1,4 +1,5 @@
 - github: "infrastructure"
   provider: "cloudformation"
   deploy:
-    release: "v0.1.8"
+    branch: "listener"
+    # release: "v0.1.8"
