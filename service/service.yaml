@@ -1,7 +1,7 @@
 - docker: "splits-lite"
   github: "splits-lite"
   deploy:
-    release: "v0.1.0"
+    release: "v0.1.1"
 
 - docker: "kayron"
   github: "kayron"
