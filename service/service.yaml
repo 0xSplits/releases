@@ -6,7 +6,8 @@
 - docker: "kayron"
   github: "kayron"
   deploy:
-    release: "v0.2.2"
+    branch: "image"
+    # release: "v0.2.2"
 
 - docker: "specta"
   github: "specta"
