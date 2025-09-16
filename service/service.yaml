@@ -2,7 +2,7 @@
   github: "splits-lite"
   deploy:
     release: "v0.1.1"
-    # preview: true
+    preview: true
 
 - docker: "kayron"
   github: "kayron"
