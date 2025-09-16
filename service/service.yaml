@@ -2,11 +2,13 @@
   github: "splits-lite"
   deploy:
     release: "v0.1.1"
+    # preview: true
 
 - docker: "kayron"
   github: "kayron"
   deploy:
-    release: "v0.3.0"
+    branch: "preview"
+    # release: "v0.3.0"
 
 - docker: "specta"
   github: "specta"
