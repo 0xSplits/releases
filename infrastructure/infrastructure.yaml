@@ -2,4 +2,4 @@
   provider: "cloudformation"
   deploy:
     branch: "webhook"
-    # release: "v0.2.3"
+    # release: "v0.2.4"
