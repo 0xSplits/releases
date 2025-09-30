@@ -7,8 +7,7 @@
 - docker: "kayron"
   github: "kayron"
   deploy:
-    branch: "webhook"
-    # release: "v0.4.4"
+    release: "v0.5.0"
 
 - docker: "specta"
   github: "specta"

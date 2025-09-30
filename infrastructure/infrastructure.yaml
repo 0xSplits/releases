@@ -1,5 +1,4 @@
 - github: "infrastructure"
   provider: "cloudformation"
   deploy:
-    branch: "webhook"
-    # release: "v0.2.4"
+    release: "v0.3.0"
