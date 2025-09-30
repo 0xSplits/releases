@@ -1,4 +1,4 @@
 - github: "infrastructure"
   provider: "cloudformation"
   deploy:
-    branch: "alloy-deploy"
+    release: "v0.3.1"
