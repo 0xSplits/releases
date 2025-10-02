@@ -1,20 +1,20 @@
+- docker: "alloy"
+  github: "alloy"
+  deploy:
+    release: "v1.10.1-de69705"
+
+- docker: "kayron"
+  github: "kayron"
+  deploy:
+    release: "v0.5.2"
+
+- docker: "specta"
+  github: "specta"
+  deploy:
+    release: "v0.2.4"
+
 - docker: "splits-lite"
   github: "splits-lite"
   deploy:
     release: "v0.1.1"
     preview: true
-
-- docker: "kayron"
-  github: "kayron"
-  deploy:
-    release: "v0.5.1"
-
-- docker: "specta"
-  github: "specta"
-  deploy:
-    release: "v0.2.3"
-
-- docker: "alloy"
-  github: "alloy"
-  deploy:
-    release: "v1.10.1-de69705"
