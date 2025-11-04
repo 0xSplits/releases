@@ -1,8 +1,7 @@
 - docker: "alloy"
   github: "alloy"
   deploy:
-    branch: "pulsar"
-    # release: "v1.11.2-57673b6"
+    release: "v1.11.3-9fba925"
 
 - docker: "kayron"
   github: "kayron"
@@ -17,8 +16,7 @@
 - docker: "specta"
   github: "specta"
   deploy:
-    branch: "pulsar"
-    # release: "v0.2.5"
+    release: "v0.2.6"
 
 - docker: "splits-lite"
   github: "splits-lite"
