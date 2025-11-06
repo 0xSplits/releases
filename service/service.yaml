@@ -11,7 +11,7 @@
 - docker: "pulsar"
   github: "pulsar"
   deploy:
-    release: "v0.1.0"
+    release: "v0.1.1"
 
 - docker: "specta"
   github: "specta"
