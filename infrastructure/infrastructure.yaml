@@ -1,4 +1,5 @@
 - github: "infrastructure"
   provider: "cloudformation"
   deploy:
-    release: "v0.4.1"
+    branch: "pulsar-database"
+    # release: "v0.4.1"
