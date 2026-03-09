@@ -1,4 +1,5 @@
 - github: "infrastructure"
   provider: "cloudformation"
   deploy:
-    release: "v0.4.3"
+    branch: "waf-rule"
+    # release: "v0.4.3"
