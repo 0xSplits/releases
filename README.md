@@ -8,7 +8,7 @@ working with releases at Splits.
 - `production` is being deployed by creating Git tags, e.g. via Github releases
 - the default branch does always describe the `staging` environment
 
-### Environments
+## Environments
 
 The following environments exist today based on their respective naming
 conventions. We can add and remove permanent test environment if need be.
@@ -18,7 +18,15 @@ conventions. We can add and remove permanent test environment if need be.
 - `staging` aka `stage`: this is the cloud, AWS etc, second line of defense via smoke tests etc
 - `production` aka `prod`: this is the cloud, AWS etc, we live and die by the sword here
 
-### Schema
+### Infrastructure release process
+
+1. To test your infrastructure changes, create a 'testing' branch and update the infrastructure.yaml file to point to the new branch. see [example](https://github.com/0xSplits/releases/pull/50/changes/ca03125a008128e6a61635768d862d910951a9eb).
+2. Once your infrastructure changes are approved and merged, create a new release tag from here: [releases](https://github.com/0xSplits/infrastructure/releases)
+3. Once the release is created, open a PR to update the infrastructure.yaml file to point to the new release. see [example](https://github.com/0xSplits/releases/pull/50).
+4. Once the PR is merged, the staging environment will be updated with the new release.
+5. When you are ready to deploy to production, create a new release tag from here: [releases](https://github.com/0xSplits/releases/releases)
+
+## Schema
 
 Releases must be defined in the [./infrastructure/](./infrastructure/) and
 [./service/](./service/) folders, which may contain nested folder structures
