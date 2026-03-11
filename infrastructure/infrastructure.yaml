@@ -1,5 +1,4 @@
 - github: "infrastructure"
   provider: "cloudformation"
   deploy:
-    branch: "disable-alarm"
-    # release: "v0.4.4"
+    release: "v0.4.5"
