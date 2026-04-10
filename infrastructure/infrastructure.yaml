@@ -1,5 +1,4 @@
 - github: "infrastructure"
   provider: "cloudformation"
   deploy:
-    branch: "pr1-seed-pipeline-branch"
-    # release: "v0.4.8"
+    release: "v0.4.9"
