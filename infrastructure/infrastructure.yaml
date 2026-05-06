@@ -1,5 +1,4 @@
 - github: "infrastructure"
   provider: "cloudformation"
   deploy:
-    branch: "update-codebuild-image-node22"
-    # release: "v0.4.14"
+    release: "v0.4.15"
