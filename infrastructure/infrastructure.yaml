@@ -1,5 +1,4 @@
 - github: "infrastructure"
   provider: "cloudformation"
   deploy:
-    branch: "feature/infra-indexing-discovery-exports"
-    # release: "v0.5.0"
+    release: "v0.5.1"
