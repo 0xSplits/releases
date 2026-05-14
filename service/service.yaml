@@ -1,7 +1,7 @@
 - docker: "alloy"
   github: "alloy"
   deploy:
-    release: "v1.12.0-a556c51"
+    release: "v1.12.1-fd79cf7"
 
 - docker: "kayron"
   github: "kayron"
@@ -11,7 +11,7 @@
 - docker: "specta"
   github: "specta"
   deploy:
-    release: "v0.3.0"
+    release: "v0.3.1"
 
 - docker: "splits-lite"
   github: "splits-lite"
