@@ -1,5 +1,5 @@
 - github: "infrastructure"
   provider: "cloudformation"
   deploy:
-    branch: "codebuild-compute-medium"
+    branch: "codebuild-registry-cache"
     # release: "v0.5.2"
