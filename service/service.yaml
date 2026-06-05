@@ -1,7 +1,7 @@
 - docker: "alloy"
   github: "alloy"
   deploy:
-    release: "v1.12.1-fd79cf7"
+    release: "v1.12.2-ce60d74"
 
 - docker: "kayron"
   github: "kayron"
