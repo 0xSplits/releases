@@ -1,5 +1,4 @@
 - github: "infrastructure"
   provider: "cloudformation"
   deploy:
-    branch: "feature/pe-7766-run-migrations-from-the-built-server-image"
-    # release: "v0.5.3"
+    release: "v0.5.4"
