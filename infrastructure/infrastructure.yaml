@@ -1,4 +1,5 @@
 - github: "infrastructure"
   provider: "cloudformation"
   deploy:
-    release: "v0.5.3"
+    branch: "feature/pe-7767-remove-redundant-aws-cli-install-from-deploy-buildspec"
+    # release: "v0.5.3"
