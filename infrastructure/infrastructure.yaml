@@ -1,5 +1,5 @@
 - github: "infrastructure"
   provider: "cloudformation"
   deploy:
-    branch: "feature/pe-7767-remove-redundant-aws-cli-install-from-deploy-buildspec"
+    branch: "feature/pe-7766-run-migrations-from-the-built-server-image"
     # release: "v0.5.3"
