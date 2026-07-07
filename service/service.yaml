@@ -16,5 +16,5 @@
 - docker: "splits-lite"
   github: "splits-lite"
   deploy:
-    release: "v0.2.2"
+    release: "v0.2.3"
     preview: true
