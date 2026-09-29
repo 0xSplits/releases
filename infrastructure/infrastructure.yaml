@@ -1,4 +1,5 @@
 - github: "infrastructure"
   provider: "cloudformation"
   deploy:
-    release: "v0.5.10"
+    branch: "pe8996-rds-gp3"
+    # release: "v0.5.10"
