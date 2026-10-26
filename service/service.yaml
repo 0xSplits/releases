@@ -11,7 +11,7 @@
 - docker: "specta"
   github: "specta"
   deploy:
-    release: "v0.3.3"
+    release: "v0.3.4"
 
 - docker: "splits-lite"
   github: "splits-lite"
