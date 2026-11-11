@@ -7,9 +7,6 @@ on:
     branches-ignore:
       - "dependabot/**"
 
-permissions:
-  contents: read
-
 jobs:
   release-lint:
     runs-on: "ubuntu-latest"
