@@ -8,6 +8,11 @@
   deploy:
     release: "v0.5.4"
 
+- docker: "mcp"
+  github: "splits-cli"
+  deploy:
+    release: "v0.7.0"
+
 - docker: "specta"
   github: "specta"
   deploy:
